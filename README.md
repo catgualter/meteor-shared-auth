@@ -1,4 +1,6 @@
-## Meteor Shared Auth
+## Forked to use with FlowRouter
+
+## Meteor Shared Auth 
 
 For situations where you have *multiple meteor applications* running on
 *separate domains* but which share the *same database*, this package allows you
@@ -17,9 +19,3 @@ setting ``sharedAuthDomains``, e.g.:
 
 Each application will attempt to share its logged-in (or logged out) state with
 each of the listed domains.
-
-### Install
-
-Install with:
-
-    meteor add admithub:shared-auth
